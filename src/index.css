@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #D8D9CF;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+/* nav */
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10rem;
+}
+
+nav > div > a {
+  color: white;
+  font-size: 3rem;
+  margin-right: 2.5rem;
+}
+
+nav > div > a:hover {
+  color: #787A91;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.2rem;
+  color: white;
+}
+
+.carrito {
+  font-size: 5rem;
+  color: white;
+}
+
+.carrito:hover {
+  color: #787A91;
+}
+
+/* List Prop */
+.bienvenida {
+  background-color: #3C2317;
+  padding: 0.7rem;
+  padding-top: 2rem;
+}
+
+.bienvenida > h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-left: 19rem;
+}
