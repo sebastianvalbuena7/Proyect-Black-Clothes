@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <>
     <nav>
-        <div>
+        <div className="tipo-prenda">
             <a href="#">Mujer</a>
             <a href="#">Hombre</a>
         </div>

@@ -23,7 +23,7 @@ nav {
   background-color: black;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 10rem;
 }
@@ -42,11 +42,18 @@ nav > div > a:hover {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 18rem;
   font-size: 3.2rem;
   color: white;
 }
 
+.tipo-prenda {
+  margin-left: 5rem;
+}
+
 .carrito {
+  margin-left: 0;
+  margin-right: 5rem;
   font-size: 5rem;
   color: white;
 }
@@ -59,7 +66,8 @@ nav > div > a:hover {
 .bienvenida {
   background-color: #3C2317;
   padding: 0.7rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  height: 5rem;
 }
 
 .bienvenida > h2 {
@@ -67,5 +75,58 @@ nav > div > a:hover {
   font-size: 2rem;
   color: white;
   text-align: center;
-  margin-left: 19rem;
+}
+
+/* ItemCount */
+h3 {
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+
+.add, .remove {
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
+
+.add {
+  margin-left: 5rem;
+}
+
+.remove:hover {
+  color: #787A91;
+}
+.add:hover {
+  color:#787A91;
+}
+
+span {
+  font-size: 2.5rem;
+  margin: 3rem;
+}
+
+.add-cart {
+  margin-left: 8rem;
+  margin-top: 2rem;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: 2rem;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
+
+.add-cart:hover {
+  color: rgb(94, 94, 94);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.img-products {
+  width: 10rem;
 }
